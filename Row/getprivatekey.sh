@@ -1,3 +1,3 @@
 #!/bin/bash
-declare -a a=($(docker ps -q))
-docker exec ${a[0]} /sovolcoin/src/sovolcoin-cli -regtest dumpprivkey $1
+HOME=/home/sovolcoin
+/home/sovolcoin/AltcoinGenerator/sovolcoin/src/sovolcoin-cli dumpprivkey $1

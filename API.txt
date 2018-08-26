@@ -1,0 +1,8 @@
+    :accountから:To(account)に:num送金:privatekeyは:accountのアドレスの秘密鍵
+/api/sendmoneytoaccount/:account/:privatekey/:num/:To
+    :accountから:To(address)に:num送金:privatekeyは:accountのアドレスの秘密鍵
+/api/sendmoneytoaddress/:account/:privatekey/:num/:To
+    :accountを作る
+/api/createaccount/:account
+    :accountの残高
+/api/getbalance/:account
